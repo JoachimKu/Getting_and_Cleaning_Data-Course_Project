@@ -1,9 +1,10 @@
-# Getting and Cleaning Data
+## Getting and Cleaning Data
 ## Course project
-
+Readme.md  
+  
 ### Requirements:
 	DataSource: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-	(A description of the data and files exists in the Readme.txt")
+	(A description of the data and files exists in the Readme.txt)
 
 ### Preparations:
 	- Donload the ZIP file
@@ -17,7 +18,7 @@
 	- "Tidy UCI HAR Dataset.txt"
 	- "TidyGroup UCI HAR Dataset.txt"
 
-## Decription of the script:
+## Description of the script:
 - Loading package dplyr
 - Set a var "TestRows" for faster checks during the developing phase, finally it must be -1
 - Setting the main sub-directory where the prog finds the data 
