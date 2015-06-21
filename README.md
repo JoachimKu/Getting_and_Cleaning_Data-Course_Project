@@ -1,28 +1,23 @@
-#
 # Getting and Cleaning Data
-#
-# Course project
-#
-# Readme.md
-#
+## Course project
 
-Requirements:
+### Requirements:
 	DataSource: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 	(A description of the data and files exists in the Readme.txt")
 
-Preparations:
+### Preparations:
 	- Donload the ZIP file
 	- Unzip the sourcefile to the working directory (A subfolder "UCI HAR Dataset" will be created
 
-Action:
+### Action:
 	- Run the R script (run_analysis.R)
 
-Result:
+### Result:
 	Two Files are created:
 	- "Tidy UCI HAR Dataset.txt"
 	- "TidyGroup UCI HAR Dataset.txt"
 
-Decription of the script:
+## Decription of the script:
 - Loading package dplyr
 - Set a var "TestRows" for faster checks during the developing phase, finally it must be -1
 - Setting the main sub-directory where the prog finds the data 
